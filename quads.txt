@@ -1,0 +1,175 @@
+////-----------------------------QUAD PRINTS----------------------------------------------////
+0:  |OPCODE :funcstart  RESULT :fract  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :1
+1:  |OPCODE :if_eq  RESULT :-  ARG1 :x  ARG2 :1  LABEL :5  LINE :3
+2:  |OPCODE :jump  RESULT :-  ARG1 :-  ARG2 :-  LABEL :3  LINE :3
+3:  |OPCODE :assign  RESULT :_t0  ARG1 :false  ARG2 :-  LABEL :No Jump  LINE :3
+4:  |OPCODE :jump  RESULT :-  ARG1 :-  ARG2 :-  LABEL :6  LINE :3
+5:  |OPCODE :assign  RESULT :_t0  ARG1 :true  ARG2 :-  LABEL :No Jump  LINE :3
+6:  |OPCODE :if_eq  RESULT :-  ARG1 :_t0  ARG2 :true  LABEL :8  LINE :3
+7:  |OPCODE :jump  RESULT :-  ARG1 :-  ARG2 :-  LABEL :10  LINE :3
+8:  |OPCODE :ret  RESULT :1  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :4
+9:  |OPCODE :jump  RESULT :-  ARG1 :-  ARG2 :-  LABEL :16  LINE :5
+10:  |OPCODE :sub  RESULT :_t1  ARG1 :x  ARG2 :1  LABEL :No Jump  LINE :6
+11:  |OPCODE :param  RESULT :_t1  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :6
+12:  |OPCODE :call  RESULT :fract  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :6
+13:  |OPCODE :getretval  RESULT :_t2  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :6
+14:  |OPCODE :mul  RESULT :_t2  ARG1 :x  ARG2 :_t2  LABEL :No Jump  LINE :6
+15:  |OPCODE :ret  RESULT :_t2  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :6
+16:  |OPCODE :funcend  RESULT :fract  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :7
+17:  |OPCODE :param  RESULT :10  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :9
+18:  |OPCODE :call  RESULT :fract  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :9
+19:  |OPCODE :getretval  RESULT :_t3  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :9
+20:  |OPCODE :param  RESULT :
+  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :9
+21:  |OPCODE :param  RESULT :_t3  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :9
+22:  |OPCODE :param  RESULT :fract:   ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :9
+23:  |OPCODE :call  RESULT :print  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :9
+24:  |OPCODE :getretval  RESULT :_t4  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :9
+25:  |OPCODE :funcstart  RESULT :fibo  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :11
+26:  |OPCODE :if_eq  RESULT :-  ARG1 :x  ARG2 :0  LABEL :30  LINE :13
+27:  |OPCODE :jump  RESULT :-  ARG1 :-  ARG2 :-  LABEL :28  LINE :13
+28:  |OPCODE :assign  RESULT :_t0  ARG1 :false  ARG2 :-  LABEL :No Jump  LINE :13
+29:  |OPCODE :jump  RESULT :-  ARG1 :-  ARG2 :-  LABEL :31  LINE :13
+30:  |OPCODE :assign  RESULT :_t0  ARG1 :true  ARG2 :-  LABEL :No Jump  LINE :13
+31:  |OPCODE :if_eq  RESULT :-  ARG1 :_t0  ARG2 :true  LABEL :33  LINE :13
+32:  |OPCODE :jump  RESULT :-  ARG1 :-  ARG2 :-  LABEL :34  LINE :13
+33:  |OPCODE :ret  RESULT :0  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :14
+34:  |OPCODE :if_eq  RESULT :-  ARG1 :x  ARG2 :1  LABEL :38  LINE :15
+35:  |OPCODE :jump  RESULT :-  ARG1 :-  ARG2 :-  LABEL :36  LINE :15
+36:  |OPCODE :assign  RESULT :_t1  ARG1 :false  ARG2 :-  LABEL :No Jump  LINE :15
+37:  |OPCODE :jump  RESULT :-  ARG1 :-  ARG2 :-  LABEL :39  LINE :15
+38:  |OPCODE :assign  RESULT :_t1  ARG1 :true  ARG2 :-  LABEL :No Jump  LINE :15
+39:  |OPCODE :if_eq  RESULT :-  ARG1 :_t1  ARG2 :true  LABEL :41  LINE :15
+40:  |OPCODE :jump  RESULT :-  ARG1 :-  ARG2 :-  LABEL :42  LINE :15
+41:  |OPCODE :ret  RESULT :1  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :16
+42:  |OPCODE :sub  RESULT :_t2  ARG1 :x  ARG2 :1  LABEL :No Jump  LINE :18
+43:  |OPCODE :param  RESULT :_t2  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :18
+44:  |OPCODE :call  RESULT :fibo  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :18
+45:  |OPCODE :getretval  RESULT :_t3  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :18
+46:  |OPCODE :sub  RESULT :_t4  ARG1 :x  ARG2 :2  LABEL :No Jump  LINE :18
+47:  |OPCODE :param  RESULT :_t4  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :18
+48:  |OPCODE :call  RESULT :fibo  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :18
+49:  |OPCODE :getretval  RESULT :_t5  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :18
+50:  |OPCODE :add  RESULT :_t5  ARG1 :_t3  ARG2 :_t5  LABEL :No Jump  LINE :18
+51:  |OPCODE :ret  RESULT :_t5  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :18
+52:  |OPCODE :funcend  RESULT :fibo  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :19
+53:  |OPCODE :param  RESULT :10  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :21
+54:  |OPCODE :call  RESULT :fibo  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :21
+55:  |OPCODE :getretval  RESULT :_t6  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :21
+56:  |OPCODE :param  RESULT :
+  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :21
+57:  |OPCODE :param  RESULT :_t6  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :21
+58:  |OPCODE :param  RESULT :fibonacci:   ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :21
+59:  |OPCODE :call  RESULT :print  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :21
+60:  |OPCODE :getretval  RESULT :_t7  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :21
+61:  |OPCODE :funcstart  RESULT :foo1  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :25
+62:  |OPCODE :param  RESULT :
+  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :27
+63:  |OPCODE :param  RESULT :x  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :27
+64:  |OPCODE :param  RESULT :foo1:   ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :27
+65:  |OPCODE :call  RESULT :print  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :27
+66:  |OPCODE :getretval  RESULT :_t0  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :27
+67:  |OPCODE :if_eq  RESULT :-  ARG1 :x  ARG2 :0  LABEL :71  LINE :29
+68:  |OPCODE :jump  RESULT :-  ARG1 :-  ARG2 :-  LABEL :69  LINE :29
+69:  |OPCODE :assign  RESULT :_t0  ARG1 :false  ARG2 :-  LABEL :No Jump  LINE :29
+70:  |OPCODE :jump  RESULT :-  ARG1 :-  ARG2 :-  LABEL :72  LINE :29
+71:  |OPCODE :assign  RESULT :_t0  ARG1 :true  ARG2 :-  LABEL :No Jump  LINE :29
+72:  |OPCODE :if_eq  RESULT :-  ARG1 :_t0  ARG2 :true  LABEL :74  LINE :29
+73:  |OPCODE :jump  RESULT :-  ARG1 :-  ARG2 :-  LABEL :75  LINE :29
+74:  |OPCODE :ret  RESULT :x  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :30
+75:  |OPCODE :sub  RESULT :_t1  ARG1 :x  ARG2 :1  LABEL :No Jump  LINE :32
+76:  |OPCODE :param  RESULT :_t1  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :32
+77:  |OPCODE :param  RESULT :f2  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :32
+78:  |OPCODE :param  RESULT :foo1  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :32
+79:  |OPCODE :call  RESULT :f1  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :32
+80:  |OPCODE :getretval  RESULT :_t2  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :32
+81:  |OPCODE :ret  RESULT :_t2  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :32
+82:  |OPCODE :funcend  RESULT :foo1  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :33
+83:  |OPCODE :funcstart  RESULT :foo2  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :35
+84:  |OPCODE :param  RESULT :
+  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :37
+85:  |OPCODE :param  RESULT :x  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :37
+86:  |OPCODE :param  RESULT :foo2:   ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :37
+87:  |OPCODE :call  RESULT :print  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :37
+88:  |OPCODE :getretval  RESULT :_t3  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :37
+89:  |OPCODE :add  RESULT :_t0  ARG1 :x  ARG2 :1  LABEL :No Jump  LINE :38
+90:  |OPCODE :param  RESULT :_t0  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :38
+91:  |OPCODE :param  RESULT :f1  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :38
+92:  |OPCODE :param  RESULT :foo2  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :38
+93:  |OPCODE :call  RESULT :f2  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :38
+94:  |OPCODE :getretval  RESULT :_t1  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :38
+95:  |OPCODE :ret  RESULT :_t1  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :38
+96:  |OPCODE :funcend  RESULT :foo2  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :39
+97:  |OPCODE :funcstart  RESULT :foo3  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :41
+98:  |OPCODE :param  RESULT :
+  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :43
+99:  |OPCODE :param  RESULT :x  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :43
+100:  |OPCODE :param  RESULT :foo3:   ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :43
+101:  |OPCODE :call  RESULT :print  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :43
+102:  |OPCODE :getretval  RESULT :_t2  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :43
+103:  |OPCODE :sub  RESULT :_t0  ARG1 :x  ARG2 :2  LABEL :No Jump  LINE :44
+104:  |OPCODE :param  RESULT :_t0  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :44
+105:  |OPCODE :param  RESULT :foo3  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :44
+106:  |OPCODE :param  RESULT :f1  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :44
+107:  |OPCODE :call  RESULT :f2  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :44
+108:  |OPCODE :getretval  RESULT :_t1  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :44
+109:  |OPCODE :ret  RESULT :_t1  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :44
+110:  |OPCODE :funcend  RESULT :foo3  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :45
+111:  |OPCODE :param  RESULT :10  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :47
+112:  |OPCODE :param  RESULT :foo3  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :47
+113:  |OPCODE :param  RESULT :foo2  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :47
+114:  |OPCODE :call  RESULT :foo1  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :47
+115:  |OPCODE :getretval  RESULT :_t2  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :47
+116:  |OPCODE :funcstart  RESULT :_sysfuncName_0  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :50
+117:  |OPCODE :ret  RESULT :print  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :50
+118:  |OPCODE :funcend  RESULT :_sysfuncName_0  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :50
+119:  |OPCODE :assign  RESULT :pr  ARG1 :_sysfuncName_0  ARG2 :-  LABEL :No Jump  LINE :50
+120:  |OPCODE :assign  RESULT :_t0  ARG1 :pr  ARG2 :-  LABEL :No Jump  LINE :50
+121:  |OPCODE :param  RESULT :hello world
+Ok
+  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :51
+122:  |OPCODE :call  RESULT :pr  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :51
+123:  |OPCODE :getretval  RESULT :_t0  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :51
+124:  |OPCODE :funcstart  RESULT :foo  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :55
+125:  |OPCODE :param  RESULT :global
+  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :55
+126:  |OPCODE :call  RESULT :print  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :55
+127:  |OPCODE :getretval  RESULT :_t0  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :55
+128:  |OPCODE :funcend  RESULT :foo  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :55
+129:  |OPCODE :funcstart  RESULT :foo  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :58
+130:  |OPCODE :param  RESULT :scope1
+  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :58
+131:  |OPCODE :call  RESULT :print  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :58
+132:  |OPCODE :getretval  RESULT :_t0  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :58
+133:  |OPCODE :funcend  RESULT :foo  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :58
+134:  |OPCODE :call  RESULT :foo  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :59
+135:  |OPCODE :getretval  RESULT :_t0  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :59
+136:  |OPCODE :funcstart  RESULT :foo  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :61
+137:  |OPCODE :param  RESULT :scope2
+  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :61
+138:  |OPCODE :call  RESULT :print  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :61
+139:  |OPCODE :getretval  RESULT :_t0  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :61
+140:  |OPCODE :funcend  RESULT :foo  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :61
+141:  |OPCODE :call  RESULT :foo  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :63
+142:  |OPCODE :getretval  RESULT :_t0  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :63
+143:  |OPCODE :call  RESULT :foo  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :64
+144:  |OPCODE :getretval  RESULT :_t0  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :64
+145:  |OPCODE :call  RESULT :foo  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :66
+146:  |OPCODE :getretval  RESULT :_t0  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :66
+147:  |OPCODE :call  RESULT :foo  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :68
+148:  |OPCODE :getretval  RESULT :_t0  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :68
+149:  |OPCODE :funcstart  RESULT :bar  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :70
+150:  |OPCODE :call  RESULT :foo  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :72
+151:  |OPCODE :getretval  RESULT :_t0  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :72
+152:  |OPCODE :funcstart  RESULT :bar  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :73
+153:  |OPCODE :param  RESULT :bar_inner
+  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :75
+154:  |OPCODE :call  RESULT :print  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :75
+155:  |OPCODE :getretval  RESULT :_t0  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :75
+156:  |OPCODE :funcend  RESULT :bar  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :76
+157:  |OPCODE :call  RESULT :bar  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :78
+158:  |OPCODE :getretval  RESULT :_t0  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :78
+159:  |OPCODE :funcend  RESULT :bar  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :79
+160:  |OPCODE :call  RESULT :bar  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :81
+161:  |OPCODE :getretval  RESULT :_t0  ARG1 :-  ARG2 :-  LABEL :No Jump  LINE :81
+////---------------------------------------------------------------------------------------////

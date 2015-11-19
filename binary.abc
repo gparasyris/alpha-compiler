@@ -1,0 +1,228 @@
+magicnumber 340200501
+strings 12
+"
+"
+"fract: "
+"fibonacci: "
+"foo1: "
+"foo2: "
+"foo3: "
+"print"
+"hello world
+Ok
+"
+"global
+"
+"scope1
+"
+"scope2
+"
+"bar_inner
+"
+integers 4
+1
+10
+0
+2
+doubles 0
+userfunctions 11
+1 3 fract
+29 6 fibo
+69 3 foo1
+94 3 foo2
+110 3 foo3
+131 0 _sysfuncName_0
+141 1 foo
+147 1 foo
+155 1 foo
+169 1 bar
+173 1 bar
+libfunctions 1
+print
+globals 7
+code 183
+////-----------------------------INSTR PRINTS----------------------------------------------////
+0:  |OPCODE :jump_vm  RESULT : 0 | 20  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 1
+1:  |OPCODE :enterfunc_vm  RESULT : 8 | 0  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 1
+2:  |OPCODE :jeq_vm  RESULT : 0 | 6  ARG1 : 2 | 0  ARG2 : 4 | 0  AL : 3
+3:  |OPCODE :jump_vm  RESULT : 0 | 4  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 3
+4:  |OPCODE :assign_vm  RESULT : 7 | 0  ARG1 : 6 | 0  ARG2 : 7 | 0  AL : 3
+5:  |OPCODE :jump_vm  RESULT : 0 | 7  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 3
+6:  |OPCODE :assign_vm  RESULT : 7 | 0  ARG1 : 6 | 1  ARG2 : 7 | 0  AL : 3
+7:  |OPCODE :jeq_vm  RESULT : 0 | 9  ARG1 : 3 | 0  ARG2 : 6 | 1  AL : 3
+8:  |OPCODE :jump_vm  RESULT : 0 | 12  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 3
+9:  |OPCODE :assign_vm  RESULT : 10 | 0  ARG1 : 4 | 0  ARG2 : 7 | 0  AL : 4
+10:  |OPCODE :jump_vm  RESULT : 0 | 19  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 4
+11:  |OPCODE :jump_vm  RESULT : 0 | 19  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 5
+12:  |OPCODE :sub_vm  RESULT : 7 | 0  ARG1 : 2 | 0  ARG2 : 7 | 0  AL : 6
+13:  |OPCODE :pusharg_vm  RESULT : 3 | 1  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 6
+14:  |OPCODE :call_vm  RESULT : 8 | 0  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 6
+15:  |OPCODE :assign_vm  RESULT : 3 | 2  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 6
+16:  |OPCODE :mul_vm  RESULT : 3 | 2  ARG1 : 2 | 0  ARG2 : 3 | 2  AL : 6
+17:  |OPCODE :assign_vm  RESULT : 10 | 0  ARG1 : 3 | 2  ARG2 : 7 | 0  AL : 6
+18:  |OPCODE :jump_vm  RESULT : 0 | 19  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 6
+19:  |OPCODE :exitfunc_vm  RESULT : 8 | 0  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 7
+20:  |OPCODE :pusharg_vm  RESULT : 4 | 1  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 9
+21:  |OPCODE :call_vm  RESULT : 8 | 0  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 9
+22:  |OPCODE :assign_vm  RESULT : 1 | 0  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 9
+23:  |OPCODE :pusharg_vm  RESULT : 5 | 0  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 9
+24:  |OPCODE :pusharg_vm  RESULT : 1 | 0  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 9
+25:  |OPCODE :pusharg_vm  RESULT : 5 | 1  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 9
+26:  |OPCODE :call_vm  RESULT : 9 | 0  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 9
+27:  |OPCODE :assign_vm  RESULT : 1 | 1  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 9
+28:  |OPCODE :jump_vm  RESULT : 0 | 60  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 11
+29:  |OPCODE :enterfunc_vm  RESULT : 8 | 1  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 11
+30:  |OPCODE :jeq_vm  RESULT : 0 | 34  ARG1 : 2 | 0  ARG2 : 4 | 2  AL : 13
+31:  |OPCODE :jump_vm  RESULT : 0 | 32  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 13
+32:  |OPCODE :assign_vm  RESULT : 7 | 0  ARG1 : 6 | 0  ARG2 : 7 | 0  AL : 13
+33:  |OPCODE :jump_vm  RESULT : 0 | 35  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 13
+34:  |OPCODE :assign_vm  RESULT : 3 | 0  ARG1 : 6 | 1  ARG2 : 7 | 0  AL : 13
+35:  |OPCODE :jeq_vm  RESULT : 0 | 37  ARG1 : 3 | 0  ARG2 : 6 | 1  AL : 13
+36:  |OPCODE :jump_vm  RESULT : 0 | 39  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 13
+37:  |OPCODE :assign_vm  RESULT : 10 | 0  ARG1 : 4 | 2  ARG2 : 7 | 0  AL : 14
+38:  |OPCODE :jump_vm  RESULT : 0 | 59  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 14
+39:  |OPCODE :jeq_vm  RESULT : 0 | 43  ARG1 : 2 | 0  ARG2 : 4 | 0  AL : 15
+40:  |OPCODE :jump_vm  RESULT : 0 | 41  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 15
+41:  |OPCODE :assign_vm  RESULT : 7 | 0  ARG1 : 6 | 0  ARG2 : 7 | 0  AL : 15
+42:  |OPCODE :jump_vm  RESULT : 0 | 44  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 15
+43:  |OPCODE :assign_vm  RESULT : 7 | 0  ARG1 : 6 | 1  ARG2 : 7 | 0  AL : 15
+44:  |OPCODE :jeq_vm  RESULT : 0 | 46  ARG1 : 3 | 1  ARG2 : 6 | 1  AL : 15
+45:  |OPCODE :jump_vm  RESULT : 0 | 48  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 15
+46:  |OPCODE :assign_vm  RESULT : 10 | 0  ARG1 : 4 | 0  ARG2 : 7 | 0  AL : 16
+47:  |OPCODE :jump_vm  RESULT : 0 | 59  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 16
+48:  |OPCODE :sub_vm  RESULT : 7 | 0  ARG1 : 2 | 0  ARG2 : 7 | 0  AL : 18
+49:  |OPCODE :pusharg_vm  RESULT : 3 | 2  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 18
+50:  |OPCODE :call_vm  RESULT : 8 | 1  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 18
+51:  |OPCODE :assign_vm  RESULT : 3 | 3  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 18
+52:  |OPCODE :sub_vm  RESULT : 3 | 4  ARG1 : 2 | 0  ARG2 : 4 | 3  AL : 18
+53:  |OPCODE :pusharg_vm  RESULT : 3 | 4  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 18
+54:  |OPCODE :call_vm  RESULT : 8 | 1  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 18
+55:  |OPCODE :assign_vm  RESULT : 3 | 5  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 18
+56:  |OPCODE :add_vm  RESULT : 3 | 5  ARG1 : 3 | 3  ARG2 : 3 | 5  AL : 18
+57:  |OPCODE :assign_vm  RESULT : 10 | 0  ARG1 : 3 | 5  ARG2 : 7 | 0  AL : 18
+58:  |OPCODE :jump_vm  RESULT : 0 | 59  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 18
+59:  |OPCODE :exitfunc_vm  RESULT : 8 | 1  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 19
+60:  |OPCODE :pusharg_vm  RESULT : 4 | 1  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 21
+61:  |OPCODE :call_vm  RESULT : 8 | 1  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 21
+62:  |OPCODE :assign_vm  RESULT : 1 | 2  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 21
+63:  |OPCODE :pusharg_vm  RESULT : 5 | 0  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 21
+64:  |OPCODE :pusharg_vm  RESULT : 1 | 2  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 21
+65:  |OPCODE :pusharg_vm  RESULT : 5 | 2  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 21
+66:  |OPCODE :call_vm  RESULT : 9 | 0  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 21
+67:  |OPCODE :assign_vm  RESULT : 1 | 3  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 21
+68:  |OPCODE :jump_vm  RESULT : 0 | 93  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 25
+69:  |OPCODE :enterfunc_vm  RESULT : 8 | 2  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 25
+70:  |OPCODE :pusharg_vm  RESULT : 5 | 0  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 27
+71:  |OPCODE :pusharg_vm  RESULT : 2 | 2  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 27
+72:  |OPCODE :pusharg_vm  RESULT : 5 | 3  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 27
+73:  |OPCODE :call_vm  RESULT : 9 | 0  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 27
+74:  |OPCODE :assign_vm  RESULT : 3 | 0  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 27
+75:  |OPCODE :jeq_vm  RESULT : 0 | 79  ARG1 : 2 | 2  ARG2 : 4 | 2  AL : 29
+76:  |OPCODE :jump_vm  RESULT : 0 | 77  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 29
+77:  |OPCODE :assign_vm  RESULT : 3 | 0  ARG1 : 6 | 0  ARG2 : 7 | 0  AL : 29
+78:  |OPCODE :jump_vm  RESULT : 0 | 80  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 29
+79:  |OPCODE :assign_vm  RESULT : 7 | 0  ARG1 : 6 | 1  ARG2 : 7 | 0  AL : 29
+80:  |OPCODE :jeq_vm  RESULT : 0 | 82  ARG1 : 3 | 0  ARG2 : 6 | 1  AL : 29
+81:  |OPCODE :jump_vm  RESULT : 0 | 84  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 29
+82:  |OPCODE :assign_vm  RESULT : 10 | 0  ARG1 : 2 | 2  ARG2 : 7 | 0  AL : 30
+83:  |OPCODE :jump_vm  RESULT : 0 | 92  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 30
+84:  |OPCODE :sub_vm  RESULT : 7 | 0  ARG1 : 2 | 2  ARG2 : 7 | 0  AL : 32
+85:  |OPCODE :pusharg_vm  RESULT : 3 | 1  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 32
+86:  |OPCODE :pusharg_vm  RESULT : 2 | 1  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 32
+87:  |OPCODE :pusharg_vm  RESULT : 8 | 2  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 32
+88:  |OPCODE :call_vm  RESULT : 2 | 0  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 32
+89:  |OPCODE :assign_vm  RESULT : 3 | 2  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 32
+90:  |OPCODE :assign_vm  RESULT : 10 | 0  ARG1 : 3 | 2  ARG2 : 7 | 0  AL : 32
+91:  |OPCODE :jump_vm  RESULT : 0 | 92  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 32
+92:  |OPCODE :exitfunc_vm  RESULT : 8 | 2  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 33
+93:  |OPCODE :jump_vm  RESULT : 0 | 109  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 35
+94:  |OPCODE :enterfunc_vm  RESULT : 8 | 3  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 35
+95:  |OPCODE :pusharg_vm  RESULT : 5 | 0  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 37
+96:  |OPCODE :pusharg_vm  RESULT : 2 | 2  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 37
+97:  |OPCODE :pusharg_vm  RESULT : 5 | 4  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 37
+98:  |OPCODE :call_vm  RESULT : 9 | 0  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 37
+99:  |OPCODE :assign_vm  RESULT : 3 | 0  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 37
+100:  |OPCODE :add_vm  RESULT : 3 | 1  ARG1 : 2 | 2  ARG2 : 4 | 0  AL : 38
+101:  |OPCODE :pusharg_vm  RESULT : 3 | 1  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 38
+102:  |OPCODE :pusharg_vm  RESULT : 2 | 0  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 38
+103:  |OPCODE :pusharg_vm  RESULT : 8 | 3  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 38
+104:  |OPCODE :call_vm  RESULT : 2 | 1  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 38
+105:  |OPCODE :assign_vm  RESULT : 3 | 2  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 38
+106:  |OPCODE :assign_vm  RESULT : 10 | 0  ARG1 : 3 | 2  ARG2 : 7 | 0  AL : 38
+107:  |OPCODE :jump_vm  RESULT : 0 | 108  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 38
+108:  |OPCODE :exitfunc_vm  RESULT : 8 | 3  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 39
+109:  |OPCODE :jump_vm  RESULT : 0 | 125  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 41
+110:  |OPCODE :enterfunc_vm  RESULT : 8 | 4  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 41
+111:  |OPCODE :pusharg_vm  RESULT : 5 | 0  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 43
+112:  |OPCODE :pusharg_vm  RESULT : 2 | 2  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 43
+113:  |OPCODE :pusharg_vm  RESULT : 5 | 5  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 43
+114:  |OPCODE :call_vm  RESULT : 9 | 0  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 43
+115:  |OPCODE :assign_vm  RESULT : 3 | 0  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 43
+116:  |OPCODE :sub_vm  RESULT : 3 | 1  ARG1 : 2 | 2  ARG2 : 4 | 3  AL : 44
+117:  |OPCODE :pusharg_vm  RESULT : 3 | 1  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 44
+118:  |OPCODE :pusharg_vm  RESULT : 8 | 4  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 44
+119:  |OPCODE :pusharg_vm  RESULT : 2 | 0  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 44
+120:  |OPCODE :call_vm  RESULT : 2 | 1  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 44
+121:  |OPCODE :assign_vm  RESULT : 3 | 2  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 44
+122:  |OPCODE :assign_vm  RESULT : 10 | 0  ARG1 : 3 | 2  ARG2 : 7 | 0  AL : 44
+123:  |OPCODE :jump_vm  RESULT : 0 | 124  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 44
+124:  |OPCODE :exitfunc_vm  RESULT : 8 | 4  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 45
+125:  |OPCODE :pusharg_vm  RESULT : 4 | 1  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 47
+126:  |OPCODE :pusharg_vm  RESULT : 8 | 4  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 47
+127:  |OPCODE :pusharg_vm  RESULT : 8 | 3  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 47
+128:  |OPCODE :call_vm  RESULT : 8 | 2  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 47
+129:  |OPCODE :assign_vm  RESULT : 1 | 4  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 47
+130:  |OPCODE :jump_vm  RESULT : 0 | 135  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 50
+131:  |OPCODE :enterfunc_vm  RESULT : 8 | 5  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 50
+132:  |OPCODE :assign_vm  RESULT : 10 | 0  ARG1 : 5 | 6  ARG2 : 7 | 0  AL : 50
+133:  |OPCODE :jump_vm  RESULT : 0 | 134  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 50
+134:  |OPCODE :exitfunc_vm  RESULT : 8 | 5  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 50
+135:  |OPCODE :assign_vm  RESULT : 1 | 5  ARG1 : 8 | 5  ARG2 : 7 | 0  AL : 50
+136:  |OPCODE :assign_vm  RESULT : 1 | 6  ARG1 : 1 | 5  ARG2 : 7 | 0  AL : 50
+137:  |OPCODE :pusharg_vm  RESULT : 5 | 7  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 51
+138:  |OPCODE :call_vm  RESULT : 1 | 5  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 51
+139:  |OPCODE :assign_vm  RESULT : 1 | 6  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 51
+140:  |OPCODE :jump_vm  RESULT : 0 | 146  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 55
+141:  |OPCODE :enterfunc_vm  RESULT : 8 | 6  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 55
+142:  |OPCODE :pusharg_vm  RESULT : 5 | 8  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 55
+143:  |OPCODE :call_vm  RESULT : 9 | 0  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 55
+144:  |OPCODE :assign_vm  RESULT : 3 | 0  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 55
+145:  |OPCODE :exitfunc_vm  RESULT : 8 | 6  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 55
+146:  |OPCODE :jump_vm  RESULT : 0 | 152  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 58
+147:  |OPCODE :enterfunc_vm  RESULT : 8 | 7  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 58
+148:  |OPCODE :pusharg_vm  RESULT : 5 | 9  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 58
+149:  |OPCODE :call_vm  RESULT : 9 | 0  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 58
+150:  |OPCODE :assign_vm  RESULT : 3 | 0  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 58
+151:  |OPCODE :exitfunc_vm  RESULT : 8 | 7  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 58
+152:  |OPCODE :call_vm  RESULT : 8 | 7  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 59
+153:  |OPCODE :assign_vm  RESULT : 1 | 6  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 59
+154:  |OPCODE :jump_vm  RESULT : 0 | 160  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 61
+155:  |OPCODE :enterfunc_vm  RESULT : 8 | 8  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 61
+156:  |OPCODE :pusharg_vm  RESULT : 5 | 10  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 61
+157:  |OPCODE :call_vm  RESULT : 9 | 0  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 61
+158:  |OPCODE :assign_vm  RESULT : 3 | 0  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 61
+159:  |OPCODE :exitfunc_vm  RESULT : 8 | 8  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 61
+160:  |OPCODE :call_vm  RESULT : 8 | 8  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 63
+161:  |OPCODE :assign_vm  RESULT : 1 | 6  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 63
+162:  |OPCODE :call_vm  RESULT : 8 | 6  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 64
+163:  |OPCODE :assign_vm  RESULT : 1 | 6  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 64
+164:  |OPCODE :call_vm  RESULT : 8 | 6  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 66
+165:  |OPCODE :assign_vm  RESULT : 1 | 6  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 66
+166:  |OPCODE :call_vm  RESULT : 8 | 6  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 68
+167:  |OPCODE :assign_vm  RESULT : 1 | 6  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 68
+168:  |OPCODE :jump_vm  RESULT : 0 | 181  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 70
+169:  |OPCODE :enterfunc_vm  RESULT : 8 | 9  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 70
+170:  |OPCODE :call_vm  RESULT : 8 | 6  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 72
+171:  |OPCODE :assign_vm  RESULT : 3 | 0  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 72
+172:  |OPCODE :jump_vm  RESULT : 0 | 178  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 73
+173:  |OPCODE :enterfunc_vm  RESULT : 8 | 10  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 73
+174:  |OPCODE :pusharg_vm  RESULT : 5 | 11  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 75
+175:  |OPCODE :call_vm  RESULT : 9 | 0  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 75
+176:  |OPCODE :assign_vm  RESULT : 3 | 0  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 75
+177:  |OPCODE :exitfunc_vm  RESULT : 8 | 10  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 76
+178:  |OPCODE :call_vm  RESULT : 8 | 10  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 78
+179:  |OPCODE :assign_vm  RESULT : 3 | 0  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 78
+180:  |OPCODE :exitfunc_vm  RESULT : 8 | 9  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 79
+181:  |OPCODE :call_vm  RESULT : 8 | 9  ARG1 : 7 | 0  ARG2 : 7 | 0  AL : 81
+182:  |OPCODE :assign_vm  RESULT : 1 | 6  ARG1 : 10 | 0  ARG2 : 7 | 0  AL : 81
+////---------------------------------------------------------------------------------------////
